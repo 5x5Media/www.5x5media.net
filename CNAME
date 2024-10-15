@@ -1,1 +1,1 @@
-5x5media.net
+$ dig 5x5media.net +noall +answer -t A
