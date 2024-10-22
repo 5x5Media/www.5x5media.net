@@ -15,6 +15,7 @@ a {
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
+    font-size:1vw;
 }
 
 a:hover {
@@ -92,6 +93,7 @@ footer {
     font-family: "Kanit", sans-serif;
     font-weight: 100;
     font-style: normal;
+    margin-left: 2vw;
 }
 
 .nav-links:hover {
@@ -216,7 +218,7 @@ video {
 }
 
 .logofooter {
-    width: 10.417vw;
+    width: 12vw;
 }
 
 /*------------------------SERVICES------------------------*/
@@ -276,7 +278,7 @@ video {
     width: 100%;
     height: 100%;
     display: block;
-    opacity: 0.5;
+    opacity:;
     border-radius: 0.26vw;
     object-fit: cover;
 }
