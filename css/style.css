@@ -74,6 +74,16 @@ footer {
     margin: 15px;
 }
 
+video {
+    display: block;
+    position: fixed;
+    top: -2vw;
+    left: 15vw;
+    margin: 0 auto;
+    width: 70%;
+    z-index: -10;
+}
+
  
 
 /*------------------------NAVIGATION------------------------*/
@@ -154,21 +164,6 @@ footer {
 }
 
 
-/*------------------------HOME PAGE------------------------*/
-
-.trailer {
-    width: 100%;
-    height: auto;
-}
-
-
-iframe {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 37.5vw;
-}
-
 /*------------------------ABOUT PAGE------------------------*/
 
 .abouttitles {
@@ -181,6 +176,13 @@ iframe {
     width: 100%;
     margin: 0;
     padding: 20%;
+}
+
+.aboutdesc2 {
+    width: 100%;
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .abouth1 {
@@ -311,16 +313,6 @@ iframe {
 
 /*------------------------ZZZZZZZZ------------------------*/
 
-video {
-    display: block;
-    position: fixed;
-    top: -2vw;
-    left: 15vw;
-    margin: 0 auto;
-    width: 70%;
-    z-index: -10;
-}
-
 .titles {
     color: white;
     font-size: 2.604vw;
@@ -341,6 +333,27 @@ video {
     display: block;
     margin: 0 auto;
     padding: 0;
+}
+
+.grouprow {
+    display: flex;
+}
+
+.groupcol {
+    width: 50%;
+    height: auto;
+    margin: 1.042vw;
+}
+
+.groupphotoimg {
+    width: 100%;
+    display: block;
+}
+
+.grouppara {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 /*------------------------SERVICES------------------------*/
@@ -367,7 +380,7 @@ video {
 .imagegridrow {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40vw;
+    margin-top: 15vw;
     justify-content: space-between;
     background-color: black;
 }
