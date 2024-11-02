@@ -172,15 +172,15 @@ iframe {
 /*------------------------ABOUT PAGE------------------------*/
 
 .abouttitles {
-    margin: 0 auto;
-    padding-top: 13%;
-    width: 33.333%;
+    margin: 0;
+    padding: 13%;
+    width: 100%;
 }
 
 .aboutdesc {
-    padding-top: 300px;
-    width: 33.333%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    padding: 20%;
 }
 
 .abouth1 {
@@ -229,25 +229,34 @@ iframe {
 
 .aboutrow {
     display: flex;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .aboutcol {
     width: 33.333%;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .aboutcol2 {
     width: 20%;
-    padding: 20px;
+    margin: 0 ;
+    padding: 0;
 }
 
 .aboutdiv {
     padding-top: 20px;
+    margin: 0 auto;
 }
 
 .aboutimg {
-    display: block;
-    width: 120px;
+    width: 100%;
+}
+
+.aboutimg2 {
+    width: 100%;
+    margin-top: 40px;
 }
 
 .abouta {
@@ -256,6 +265,12 @@ iframe {
     display: contents;
     color: lightblue;
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .aboutcol {
+        flex: 1 1 100%; /* Stacks columns on smaller screens */
+    }
 }
 
 /*------------------------TEAM MEMBERS------------------------*/
@@ -558,98 +573,36 @@ video {
 
 /*------------------------ABOUT US------------------------*/
 
-.groupphoto {
-    text-align: center;
-}
 
-.grouprow {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 10%;
-}
-
-.groupcol {
-    width: 50%;
-    height: auto;
-    margin: 1.042vw;
-}
-
-.groupphotoimg {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.grouptitle {
-    color: white;
-    font-size: 1.563vwx;
-    text-align: center;
-    padding: 1.042vw;
-    font-family: "Kanit", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
 
 /*------------------------CONTACT------------------------*/
 
-.contacttitle {
+.contactp {
+    padding-top: 20px;
+    font-size: 20px;
     color: white;
-    font-size: 1.563vw;
-    text-align: center;
-    padding: 1.042vw;
     font-family: "Kanit", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
-    margin: 0 auto;
-    margin-top: 10vw;
+    text-align: center;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 0.625vw; 
-  border: 0.052vw solid #ccc; 
-  border-radius: 0.208vw;
-  box-sizing: border-box; 
-  margin-top: 0.313vw; 
-  margin-bottom: 0.833vw; 
-  resize: vertical 
-}
-
-input[type=submit] {
-  background-color: white;
-  color: black;
-  padding: 0.625vw 1.042vw;
-  border: none;
-  border-radius: 0.208vw;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.emailcontainer {
-    display: block;
-    margin: 0 auto;
-    border-radius: 0.26vw;
-    width: 50%;
-    background-color: black;
-    padding: 1.042vw;
-    margin-bottom: 10%;
-}
-
-.nameemail {
+.contactrow {
     display: flex;
-    margin: 0 auto;
-    margin-top: 10%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.double {
-    width: 50%;
-    height: auto;
-    margin-right: 0.521vw;
+.contactcol {
+    width: 100%;
+    padding: ;
 }
 
+.contacttitles {
+    margin: 0;
+    width: 100%;
+}
 
 /*-------------------New Nav Bar--------------------*/
 
